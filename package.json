@@ -1,0 +1,16 @@
+{
+  "name": "shishir.dev",
+  "version": "1.0.0",
+  "description": "Personal blog of Shishir Srivastava",
+  "author": "Shishir Srivastava <mail@shishir.dev>",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shishir-srivastava/shishir.dev"
+  },
+  "bugs": {
+    "url": "https://github.com/shishir-srivastava/shishir.dev/issues"
+  }
+}
