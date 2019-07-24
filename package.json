@@ -6,11 +6,23 @@
   "license": "MIT",
   "private": true,
   "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "yarn run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/shishir-srivastava/shishir.dev"
   },
   "bugs": {
     "url": "https://github.com/shishir-srivastava/shishir.dev/issues"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.39",
+    "prettier": "^1.18.2"
   }
 }
