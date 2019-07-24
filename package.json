@@ -5,7 +5,6 @@
   "author": "Shishir Srivastava <mail@shishir.dev>",
   "license": "MIT",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -23,6 +22,8 @@
   },
   "dependencies": {
     "gatsby": "^2.13.39",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
