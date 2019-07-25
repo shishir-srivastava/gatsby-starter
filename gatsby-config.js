@@ -6,4 +6,5 @@
 
 module.exports = {
     // Site configuration
+    plugins: ['gatsby-plugin-eslint', 'gatsby-plugin-stylelint'],
 };

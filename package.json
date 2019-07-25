@@ -33,6 +33,7 @@
         "eslint-plugin-react": "^7.14.3",
         "gatsby": "^2.13.39",
         "gatsby-plugin-eslint": "^2.0.5",
+        "gatsby-plugin-stylelint": "^3.2.0",
         "husky": ">=1",
         "lint-staged": ">=8",
         "prettier": "^1.18.2",
