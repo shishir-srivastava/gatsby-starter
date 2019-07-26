@@ -6,12 +6,12 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "build": "gatsby build",
+        "build": "rm -rf public && rm -rf .cache && gatsby build",
         "develop": "gatsby develop",
         "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
         "start": "yarn run develop",
         "serve": "gatsby serve",
-        "lint": "eslint --ext .js --fix . && stylelint ./**/*.css --fix",
+        "lint": "eslint --ext .js,.jsx --fix . && stylelint src/**/*.css --fix",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
     },
     "repository": {
@@ -53,7 +53,7 @@
         }
     },
     "lint-staged": {
-        "*.js": [
+        "*.{js,jsx}": [
             "eslint --fix",
             "git add"
         ],
