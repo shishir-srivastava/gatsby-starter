@@ -8,7 +8,7 @@
     "scripts": {
         "build": "rm -rf public && rm -rf .cache && gatsby build",
         "develop": "gatsby develop",
-        "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
+        "format": "prettier --write src/**/*.{js,jsx,json,css}",
         "start": "yarn run develop",
         "serve": "gatsby serve",
         "lint": "eslint --ext .js,.jsx --fix . && stylelint src/**/*.css --fix",
@@ -61,7 +61,7 @@
             "stylelint --fix",
             "git add"
         ],
-        "*.{json,md}": [
+        "*.json": [
             "prettier --write",
             "git add"
         ]
